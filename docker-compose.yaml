@@ -1,0 +1,14 @@
+version: "3"
+services:
+  ctf-server:
+    build: services/ctf-server
+    ports:
+      - "8000:8000"
+  exec:
+    build: services/exec
+    ports:
+      - "5000:8080"
+  helix:
+    build: services/helix
+    ports:
+      - "3000:3000"

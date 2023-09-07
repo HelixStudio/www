@@ -1,0 +1,9 @@
+[submodule "services/ctf-server"]
+	path = services/ctf-server
+	url = https://github.com/HelixStudio/ctf-server.git
+[submodule "services/exec"]
+	path = services/exec
+	url = https://github.com/HelixStudio/exec.git
+[submodule "services/helix"]
+	path = services/helix
+	url = https://github.com/HelixStudio/helix.git
